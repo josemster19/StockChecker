@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+	<meta charset="UTF-8" />
+	<title>Stock Checker</title>
+	<h:outputStylesheet library="css" name="style.css" /> 
+	<h:outputScript library="js" name="jquery-3.1.1.min.js" />
+  <!-- TODO -->
+</h:head>
+
+<body>
+	<h1>Real Time Stock Checker</h1>
+	<h:form prependId="false">
+		<!--  Primera part -->
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Name <h:commandButton value="▲">
+				    <!-- TODO complete the commandButton  -->
+					</h:commandButton> <h:commandButton value="▼">
+					  <!-- TODO complete the commandButton  -->
+					</h:commandButton>
+				</th>
+				<th>Stock <h:commandButton value="▲">
+            <!-- TODO complete the commandButton  -->				
+					</h:commandButton> <h:commandButton value="▼">
+            <!-- TODO complete the commandButton  -->
+					</h:commandButton>
+				</th>
+				<th>Actions</th>
+			</tr>
+        <!-- TODO -->
+		</table>
+		
+		<!-- Segona part -->
+		<h:commandButton id="refresh" style="display: none;">
+      <!-- TODO -->
+		</h:commandButton>
+		
+	</h:form>
+</body>
+</html>
